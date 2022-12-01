@@ -16,10 +16,19 @@
 
 .spin{
     /* justify-content: space-between; */
+    width: 62.5vw;
     align-content: space-around;
     color: white;
     text-decoration: none;
 }
+
+.spin > a{
+    /* justify-content: space-between; */
+    color: white;
+    text-decoration: none;
+    
+}
+
 
 #herofeature{
     position: relative;
@@ -33,6 +42,8 @@
     display: flex;
     flex-direction: column;
     align-content: flex-start;
+    margin-top: -252px;
+    margin-bottom: 3vh;
     /* justify-content: flex-start; */
 }
 
@@ -48,8 +59,16 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    /* padding-left: 2vw; */
+    padding-right: 2vw;
+}
+
+.readmore{
+    background-color: rgb(214, 181, 20);
+    color: white;
+    padding: .75vw;
+    border: none;
+
 }
 
 .playphoto{
@@ -58,12 +77,33 @@
 }
 
 #datetag{
-    border: 1px solid pink;
-    background-color: pink;
+    border: 1px solid grey;
+    background-color: white;
+    width: 47vw;
+    position: relative;
+    margin-left: 26.5vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    padding: 1vh;
 }
 
 #date{
-    text-indent: 2hw;
+    text-indent: 2vw;
+    margin: 0;
+}
+
+.playtitle{
+    margin-bottom: 0%;
+}
+
+.playdetails{
+    height: 16vh;
+    margin-top: 1vh;
+    padding-right: 6vw;
+}
+
+.divide{
+    width: 45vw
 }
 
 .bottom{
@@ -85,6 +125,16 @@
     justify-content: center;
     color: white;
     text-decoration: none;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    width: 10vw;
+}
+
+.btmmenu > a{
+    color: white;
+    text-decoration: none;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
 }
 
 .fa-solid{
