@@ -1,0 +1,83 @@
+
+/* .head{
+    display: flex;
+    align-content: space-between;
+} */
+
+.top{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+#herofeature{
+    position: relative;
+    top: 40vh;
+    left: 30vw;
+    color: white;
+    font-size: 60pt;
+}
+
+.mid{
+    display: flex;
+    flex-direction: column;
+}
+
+.middlerows{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center; 
+}
+
+.middleplays{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.playphoto{
+    width: 12vw;
+    height: auto;
+}
+
+#datetag{
+    border: 1px solid pink;
+    background-color: pink;
+}
+
+#date{
+    text-indent: 2vw;
+}
+
+.bottom{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.btmcatagories{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.btmmenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.fa-solid{
+    color: orange;
+}
