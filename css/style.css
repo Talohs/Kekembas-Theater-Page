@@ -2,6 +2,10 @@
     margin: 0;
 }
 
+body{
+    margin: 0;
+}
+
 .head{
     display: flex;
     background-color: black;
