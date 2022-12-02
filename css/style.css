@@ -1,3 +1,6 @@
+.page{
+    margin: 0;
+}
 
 .head{
     display: flex;
@@ -8,14 +11,16 @@
 
 .top{
     display: flex;
-    /* flex-direction: row;
-    justify-content: space-around;
-    align-content: space-around; */
     color: white;
 }
 
+.top > h2{
+    padding-right: 5vw;
+    padding-left: 5vw;
+}
+
 .spin{
-    /* justify-content: space-between; */
+    display:flex;
     width: 62.5vw;
     align-content: space-around;
     color: white;
@@ -23,10 +28,12 @@
 }
 
 .spin > a{
-    /* justify-content: space-between; */
     color: white;
     text-decoration: none;
-    
+    font-family: sans-serif;
+    padding-left: 8vw;
+    align-self: center;
+    font-size: small;
 }
 
 
@@ -44,7 +51,10 @@
     align-content: flex-start;
     margin-top: -252px;
     margin-bottom: 3vh;
-    /* justify-content: flex-start; */
+}
+
+.midblock{
+    margin-top: 16vh;
 }
 
 .middlerows{
@@ -59,7 +69,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    /* padding-left: 2vw; */
     padding-right: 2vw;
 }
 
@@ -67,7 +76,7 @@
     background-color: rgb(214, 181, 20);
     color: white;
     padding: .75vw;
-    border: none;
+    border: 1px solid grey;
 
 }
 
@@ -92,8 +101,9 @@
     margin: 0;
 }
 
-.playtitle{
+.playtext > h4{
     margin-bottom: 0%;
+    font-weight: bold;
 }
 
 .playdetails{
@@ -127,7 +137,7 @@
     text-decoration: none;
     margin-left: 3vw;
     margin-right: 3vw;
-    width: 10vw;
+    width: 13vw;
 }
 
 .btmmenu > a{
@@ -136,6 +146,12 @@
     padding-top: 2vh;
     padding-bottom: 4vh;
 }
+
+.btmmenu > h3{
+    font-family: sans-serif;
+    font-size: 20pt;
+}
+
 
 .fa-solid{
     color: orange;
